@@ -1,0 +1,294 @@
+// Landing page //
+
+<html>
+<head>
+    <title>Bookstore</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .book-img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .copyright {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Book-O-Logy</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="landing page.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <img src="https://static01.nyt.com/images/2017/05/11/t-magazine/bookstore-slide-2MCD/bookstore-slide-2MCD-superJumbo.jpg" alt="Bookstore" class="book-img">
+        <h2>Explore our collection of books</h2>
+        <ul>
+			<li>Comic</li>
+			<li>Fiction</li>
+			<li>Romance</li>
+			<li>Horror</li>
+			<li>Devotional</li>
+			<li>Fashion</li>
+			<li>Novel</li>
+			<li>Autobiography</li>
+			<li>Culinary</li>
+		</ul>
+    </main>
+    <footer>
+        <p>&copy; 2022 Book-O-Logy. All rights reserved.</p>
+    </footer>
+    <div class="copyright">
+        <p>Developed by Anouska Bhattacharyya</p>
+    </div>
+</body>
+</html>
+
+
+// About page //
+
+<html>
+<head>
+    <title>About My Bookstore</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .about-img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .copyright {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About Book-O-Logy</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="landing page.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <img src="https://www.neh.gov/sites/default/files/styles/featured_image_page/public/2018-06/openbooks.jpg?h=b69e0e0e&itok=06BUz0mY" alt="About My Bookstore" class="about-img">
+        <h2>Welcome,</h2>
+        <p>Book-O-Logy is a place, where literary passions flourish and stories come to life! Immerse yourself in a world of captivating narratives and boundless knowledge as you explore our diverse collection of books. From timeless classics to contemporary gems, we curate an extensive selection to cater to every reader's taste and curiosity.</p>
+<p>At Book-O-Logy, we believe in the magic of storytelling and its power to connect, inspire, and transport. Our online haven invites book enthusiasts to embark on literary journeys, discover new voices, and rediscover beloved tales. Whether you seek thrilling adventures, insightful reflections, or educational treasures, our carefully curated shelves await your exploration.</p>
+<p>Indulge your love for literature and foster a sense of community with fellow book lovers. Join us on this literary adventure at Book-O-Logy, where every page turns into an opportunity for discovery, imagination, and connection. Happy reading!</p>
+    </main>
+    <footer>
+        <p>&copy; 2022 Book-O-Logy. All rights reserved.</p>
+    </footer>
+    <div class="copyright">
+        <p>Developed by Anouska Bhattacharyya</p>
+    </div>
+</body>
+</html>
+
+
+// Contact page //
+
+<html>
+<head>
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .contact-info {
+            display: inline-block;
+            width: 200px;
+            vertical-align: top;
+            margin-right: 50px;
+        }
+
+        .contact-info img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .copyright {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="landing page.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="contact-info">
+            <img src="https://burst.shopifycdn.com/photos/contact-us-phone.jpg?width=1850&format=pjpg&exif=1&iptc=1" alt="Contact Information" class="contact-img">
+            <h3>Contact Details</h3>
+            <p>Phone: 7845110982</p>
+            <p>Email: info@bookology.com</p>
+            <p>Location: 123 Bookstore St, New Market, India-700056</p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2022 Book-O-Logy. All rights reserved.</p>
+    </footer>
+    <div class="copyright">
+        <p>Developed by Anouska Bhattacharyya</p>
+    </div>
+</body>
+</html>

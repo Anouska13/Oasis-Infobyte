@@ -1,0 +1,416 @@
+<html>
+    <head>
+        <title>
+                Portfolio of Anouska
+        </title>
+        <link rel="icon" type="image/png" href="https://bit.ly/portFRONT1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+        <style>
+
+            *{
+                box-sizing: border-box;
+                margin: 0%;
+                padding: 0%;
+            }
+
+
+            .bg{
+                background-color: #fff7eb;
+                background-repeat: no-repeat;
+                background-size: cover;
+                min-height: 760px;
+            }
+            
+            .wrapper{
+                background-color: rgb(0, 255, 255);
+                padding: 2px 2px 2px 2px;
+                float: right;
+                position: fixed;
+                top: 25px;
+                left: 25px;
+                
+            }
+            .form-body{
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+            /* a{
+                padding: 15px;
+                background-color: rgb(255, 255, 255);
+                text-decoration: none;
+                color: rgb(0, 0, 0);
+                font-size: 20px;
+                display: inline-block;
+                
+                min-width: 90px;
+                text-align: center;
+                
+                
+            } */
+            section{
+                min-height: 700px;
+                margin: 100px 100px;
+                border-radius: 10PX;
+                padding: 20px;
+            }
+         
+            
+            #mainlogo{
+                position: relative;
+                top: 455px;
+                float: left;
+                left: 725px;
+                height: 150px;
+                width: 150px;
+            }
+            #mainname{
+                font-family: "Helvetica Neue","Helvetica","Inter","Arial",sans-serif;
+                position: relative;
+                float: left;
+                color: white;
+                top: 600px;
+                left: 550px;
+            }
+            #Portfolio{
+                box-shadow: 0px 0px 50px 1px rgb(121, 120, 120);
+                background-color: rgb(253, 251, 230);
+            }
+            #Interests{
+                box-shadow: 0px 0px 50px 1px rgb(121, 120, 120);
+                background-color: rgb(231, 253, 230);
+            }
+            #About{
+                box-shadow: 0px 0px 50px 1px rgb(121, 120, 120);
+                background-color: rgb(228, 247, 255);
+            }
+            #Contact{
+                box-shadow: 0px 0px 50px 1px rgb(121, 120, 120);
+                background-color: rgb(80, 133, 111);
+            }
+            form{
+                width: 350px;
+                height: 520px;
+                background-color: rgb(212, 212, 212);
+                position: relative;
+                top: 75px;
+                left: 400px;
+                    margin: auto 30% ;
+                    border-radius: 10px;
+                    box-shadow: 0px 0px 10px 1px rgb(26, 26, 26);
+            }
+            #s{
+                text-align: center;
+                padding: 1px;
+            }
+            #t{
+                background-color: #e9e9e9;
+                height: 400px;
+            }
+            .sidepanel {
+                height: 260px; 
+                width: 0;
+                position: fixed; 
+                z-index: 5; 
+                top: 40px ;
+                left: 26px ;
+                background-color: rgb(0, 255, 255); 
+                overflow-x: hidden;
+                padding-top: 60px; 
+                transition: 0.5s;
+            }
+
+            .sidepanel a {
+            padding: 8px 8px 8px 32px;
+            min-width: 90px;
+            background-color: #111;
+            text-decoration: none;
+            margin: 15px;
+            box-shadow: 0px 0px 5px 3px rgb(95, 95, 95);
+            border-radius: 5px;
+            font-size: 25px;
+            text-align: center;
+            color: #ffffff;
+            display:block;
+            transition: 0.2s;
+            z-index: 3;
+            }
+
+            .sidepanel a:hover {
+            font-size: 28px;
+            color: rgb(0, 255, 255);
+            }
+
+            .sidepanel .closebtn {
+            position: absolute;
+            top: 0;
+            text-align: center;
+            max-width: 10px;
+            right: 25px;
+            font-size: 20px;
+            margin-left: 25px;
+            }
+            #dp1{
+                position: relative;
+                top: 50px;
+                left: 200px;
+                border-radius: 10px;
+            }
+            /* #card{
+                background-color: rgb(113, 238, 255);
+                height: 450px;
+                width: 330px;
+                padding: 20px;
+                float: left;
+                margin-left: 20px;
+                text-align: center;
+            } */
+            #portpara{
+                position: relative;
+                top: 100px;
+                right: 100px;
+                height: 600px;
+                width: 600px;
+                float: right;
+                color: rgb(82, 69, 69);
+                background-color: rgba(185, 183, 183, 0);
+            }
+            p{
+                margin: 10px 10px;
+            }
+            /* img{
+                position: relative;
+                top: 200px;
+                left: 200px;
+                height: 400px;
+                width: 300px;
+                outline: 5px solid black;
+            } */
+            
+            #avatar{
+                border-radius: 5%;
+                float: left;
+                position: relative;
+                top: 115px;
+                left: 20px;
+                height: 382px;
+                width: 244px;
+                outline: 10px solid rgb(255, 255, 255);
+                box-shadow: 0px 0px 20px 10px rgb(121, 120, 120);
+            }
+            #fa{
+                background-color: rgba(255, 255, 255, 0);
+                float: left;
+                font-family: "Helvetica Neue","Helvetica","Inter","Arial",sans-serif;
+                color: rgb(255, 250, 250);
+                top: 150px;
+                left: 250px;
+                height: 200px;
+                width: 300px;
+                position: relative;
+            }
+            #skilllogo{
+                font-size: 20px;
+                height: 25px;
+                width: 25px;
+            }
+            #bodytext{
+                font-family: inherit;
+                color: rgb(109, 109, 109);
+                font-size: 20px;
+                font-weight: inherit;
+                font-style: inherit;
+                border: 0;
+                margin: 0;
+                padding: 0%;
+            }
+            input[type=text] {
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                box-sizing: border-box;
+                border: 3px solid #ccc;
+                -webkit-transition: 0.5s;
+                transition: 0.5s;
+                outline: none;
+                }
+            textarea{
+                box-sizing: border-box;
+                border: 3px solid #ccc;
+            }
+            button{
+                padding: 10px 20px;
+                color: white;
+                background-color:  dodgerblue;
+                border-radius: 5px;
+                font-size: 18px;
+                border: none;
+            }
+            button:hover{
+                background-color: royalblue;
+            }
+            i{
+                color: white;
+            }
+            i:hover{
+                color: black;
+            }
+            .openbtn {
+            font-size: 20px;
+            cursor: pointer;
+            background-color: #111;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            }
+            
+            .openbtn:hover {
+            background-color: #444;
+            }
+                
+        </style>
+    </head>
+    <body>
+        <div class="bg">            
+            <menu class="wrapper">
+                <div id="mySidepanel" class="sidepanel">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;Close</a>
+                <a href="#Portfolio">Portfolio</a>
+                <a href="#About">Skill Sets</a>
+                <a href="#Interests">Interests</a>
+                <a href="#Contact">Get In Touch</a>
+              </div>              
+              <button class="openbtn" onclick="openNav()">&#9776; Menu</button>
+            </menu>
+            <div class="content">   
+            </div>
+            <section id="Portfolio">
+                <div>
+                    <!-- <div id="dp1">
+                    <img src="https://scontent.fccu1-1.fna.fbcdn.net/v/t39.30808-6/272132004_225254396486874_7101895277381810411_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=730e14&_nc_ohc=RojZc2BxA_0AX86dj3W&_nc_ht=scontent.fccu1-1.fna&oh=00_AT-BggQ43YNC480JBcFHM_heZ7626aeObvStYnbCgtNA1g&oe=61F0961E" alt="Akash Photo">
+                </div> -->
+                <div id="card">
+                    <img id="avatar" src="https://th.bing.com/th/id/OIP.qUaAXybGCZ9iJYRScfp41gAAAA?rs=1&pid=ImgDetMain" alt="Avatar">
+                    <p style="font-size: 20px;"></p>                   
+                </div>
+                </div>
+                <div id="portpara">
+                    <h2 style="font-size: 30px;">Hi, I am Anouska Bhattacharya</h2>
+                    <div style="height: .1px; width: 100%; background-color: rgb(151, 151, 151);"></div><br>
+                    <p id="bodytext">
+                        I am a Biotechnologist, currently pursuing B.Tech in Biotechnology at Amity University, Kolkata, West Bengal.<br><br>
+                        Beyond the academic realm, I possess a versatile skill set. Proficient in scientific paper writing, I am equally adept at navigating the worlds of marketing and PR campaigns. My presentation skills, honed through diverse experiences, enable me to articulate complex concepts with clarity.<br><br>
+                        These interests, along with my academic pursuits, shape me into a well-rounded individual, eager to contribute meaningfully to the fascinating intersection of biotechnology and innovation. As of now I don't have much acomplishments but you can check my linkdin profile here at -
+                    </p>
+                    <p><a href="https://www.linkedin.com/in/anouska-bhattacharyya-4758101ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa fa-github" style="font-size: 25px; color: black;"></i> </a><a href="https://www.linkedin.com/in/anouska-bhattacharyya-4758101ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" style="color: black;">LinkdIn Profile</a></p><br>
+                    <p id="bodytext">
+                        You will find more info here -
+                    </p>
+                    <a href="D:\Resume\Resume_Anouska.pdf" >
+                        <button class="btn" ><i class="fa fa-download"  ></i> Download CV</button>
+                    </a>                    
+            </div>
+            </section>
+            <section id="About">
+                <div>
+                    <img id="avatar" src="https://th.bing.com/th/id/OIP.Eqnzd5ChduXHXwPkn1HHYQAAAA?rs=1&pid=ImgDetMain" alt="Avatar">
+                </div>
+                <div id="portpara">
+                    <h2 style="font-size: 30px;">Technical Skill Sets.</h2>
+                    <div style="height: .1px; width: 100%; background-color: rgb(151, 151, 151);"></div><br>
+                    <p id="bodytext">
+                        I am learning constantly to be at a point to take the best jobs in the latest technology.<br><br>                        
+                    </p>
+                    <p style="font-size: 25px;">
+                        <img id="skilllogo"  src="https://cdn-icons-png.flaticon.com/512/29/29540.png">Java Servlet Pages
+                    </p>
+                    <p id="bodytext" style="padding-left: 0.5em;">
+                        As my main language i know this language well. I focus on simple and compact program for various needs.
+                    </p><br>
+                    <p style="font-size: 25px;">
+                        <img id="skilllogo"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9ptrBHgBFCMjzhviaHrC-I1hXgVwtzuJcoD48790&s">HTML
+                    </p>
+                    <p id="bodytext" style="padding-left: 0.5em;">
+                        Allthough I have poor taste of arts. But I have a pretty knowledge of HTML. And I am also interested in Javascript.
+                    </p><br>
+                    <p style="font-size: 25px;">
+                        <img id="skilllogo"  src="https://1000logos.net/wp-content/uploads/2020/08/MySQL-Logo.png">MySQL
+                    </p>
+                    <p id="bodytext" style="padding-left: 0.5em;">
+                        I only started DBMS cause it was in my curriculum. But I found it very interesting later on. Now it is catching to me.
+                    </p>                    
+                </div> 
+            </section>
+            <section id="Interests">
+                <div>
+                <div id="card">
+                    <img id="avatar" src="https://th.bing.com/th/id/OIP.gG6rMKg7FrSa_MfI_ZBLbwHaHa?w=512&h=512&rs=1&pid=ImgDetMain" alt="Avatar">
+                    <p style="font-size: 20px;"></p>                   
+                </div>
+                </div>
+                <div id="portpara">
+                    <h2 style="font-size: 30px;">What do I like!!</h2>
+                    <div style="height: .1px; width: 100%; background-color: rgb(151, 151, 151);"></div><br>
+                    <p id="bodytext">
+                        I'm a 22-year-old college student residing in Kolkata, West Bengal, India, with a passion for biotechnology.  <br><br>
+                        Beyond the lab, I find joy in dancing, exploring captivating reads, experimenting with culinary creations, and embarking on exciting travel adventures. <br><br>
+                        I also have interest in Adventure and Detective strories. Wheather it is a story book or a audiobook I like to finish the whole series as soon as I can.<br><br>
+                        While my peers may gravitate towards animated series, my interests lie in the rhythmic world of dance and the culinary arts. <br><br>
+                        I am currently focused on mastering full stack web development to elevate my career prospects and broaden my skill set in the dynamic field of web technology.
+                    </p>                   
+            </div>
+            </section>
+            <section id="Contact">
+                <div>
+                    <div id="fa">
+                        <h1 style="font-size: 30px;">Connect With Me !!</h1>
+                        <p style="font-size: 20px;">
+                            Want to colaborate with me on something??<br><br>
+                            Do not forget to leave a massage!!<br>
+                        </p><br><br>
+                        <p id="tag">
+                            <a href="https://accounts.google.com/SignOutOptions?hl=en&continue=https://mail.google.com&service=mail" style="color: white;"><i class="fa fa-envelope" style="font-size: 25px;"></i> anouskab2001@gmail.com</a><br><br>
+                            <a href="https://www.facebook.com/profile.php?id=100070069459571"><i class="fa fa-facebook-official" style="font-size: 25px;"></i></a>&emsp;&emsp;
+                            <a href="https://www.linkedin.com/in/akash-sarkar-070401204/"><i class="fa fa-linkedin" style="font-size: 25px;" ></i></a>&emsp;&emsp;
+                            <a href="https://github.com/Neil-Azax"><i class="fa fa-github" style="font-size: 25px;"></i></a>&emsp;&emsp;
+                            <a href="https://twitter.com/Neil_AzaX_CS"><i class="fa fa-twitter" style="font-size: 25px;"></i></a>
+                        </p>
+                    </div>
+                    <div id="form">
+                        <form method="get" action="index.html">
+                            <div id="s">
+                                <legend><h1>Leave A Massage</h1></legend>
+                            </div>
+                            <div id="t">
+                                <div style="padding: 20px;">
+                                    <label for="firstname" class="label-tittle">Your Name:</label>
+                                    <input type="text" name="fname" placeholder="enter your name" required="required" size="30px">
+                                </div>
+                                <div style="padding: 0px 20px  ;">
+                                    <label for="email" class="label-tittle">Email:</label>
+                                    <input type="text" name="email" placeholder="enter your email" required="required" size="38px"></br></br>
+                                </div>
+                                <div style="padding: 0px 20px ;">
+                                    <label class="label-tittle">Type massage:</label>
+                                    <textarea name="message" rows="5" cols="38" placeholder="Message for me!!!"></textarea>
+                                </div>                               
+                                <div style="margin-left: 75px; margin-top: 20px; ">
+                                    <button type="reset" name="reset" value="reset">Reset</button>
+                                    <button type="submit" name="login" value="Log In">Send</button>
+                                </div>                            
+                            </div>
+                    </form>
+                </div>
+                </div>               
+            </section>
+        </div>
+        <script>
+            function openNav() {
+            document.getElementById("mySidepanel").style.width = "250px";
+            }
+            function closeNav() {
+            document.getElementById("mySidepanel").style.width = "0";
+            }
+        </script>
+    </body>
+</html>

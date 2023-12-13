@@ -2,24 +2,24 @@
 
 <html>
 <head>
-    <title>Bookstore</title>
+    <title>Nail Salon</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f0f0f0;
+            background-color: lightcyan;
         }
 
         header {
-            background-color: #333;
-            color: #fff;
+            background-color: lightyellow;
+            color: black;
             padding: 20px;
             text-align: center;
         }
 
         nav {
-            background-color: #333;
+            background-color: lightpink;
             padding: 20px;
         }
 
@@ -42,10 +42,14 @@
             padding: 20px;
             text-align: center;
         }
+        main ul li a {
+			color: lightpink;
+			text-align: center;
+		}
 
         footer {
-            background-color: #333;
-            color: #fff;
+            background-color: lightyellow;
+            color: black;
             padding: 20px;
             text-align: center;
         }
@@ -56,8 +60,8 @@
         }
 
         .copyright {
-            background-color: #333;
-            color: #fff;
+            background-color: lightpink;
+            color: black;
             padding: 10px;
             text-align: center;
         }
@@ -65,32 +69,30 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to Book-O-Logy</h1>
+        <h1>Welcome to NailMate</h1>
     </header>
     <nav>
         <ul>
-            <li><a href="landing page.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="Landing_nail.html">Home</a></li>
+            <li><a href="About_nail.html">About</a></li>
+            <li><a href="Contact_nail.html">Contact</a></li>
         </ul>
     </nav>
     <main>
-        <img src="https://static01.nyt.com/images/2017/05/11/t-magazine/bookstore-slide-2MCD/bookstore-slide-2MCD-superJumbo.jpg" alt="Bookstore" class="book-img">
-        <h2>Explore our collection of books</h2>
+        <img src="https://i.pinimg.com/originals/bb/a9/81/bba981091926531584706926236a3ed1.jpg" alt="Bookstore" class="book-img">
+        <h2>Explore our services</h2>
         <ul>
-			<li>Comic</li>
-			<li>Fiction</li>
-			<li>Romance</li>
-			<li>Horror</li>
-			<li>Devotional</li>
-			<li>Fashion</li>
-			<li>Novel</li>
-			<li>Autobiography</li>
-			<li>Culinary</li>
+			<li>Manicures and Pedicures</li>
+			<li>Nail Extensions</li>
+			<li>Nail Art</li>
+			<li>Nail Treatments</li>
+			<li>Nail Care Consultation</li>
+			<li>Specialty Services</li>
+			<li>Events and Parties</li>
 		</ul>
     </main>
     <footer>
-        <p>&copy; 2022 Book-O-Logy. All rights reserved.</p>
+        <p>&copy; 2023 NailMate. All rights reserved.</p>
     </footer>
     <div class="copyright">
         <p>Developed by Anouska Bhattacharyya</p>
@@ -103,24 +105,24 @@
 
 <html>
 <head>
-    <title>About My Bookstore</title>
+    <title>About NailMate</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f0f0f0;
+            background-color: lightcyan;
         }
 
         header {
-            background-color: #333;
-            color: #fff;
+            background-color: lightyellow;
+            color: black;
             padding: 20px;
             text-align: center;
         }
 
         nav {
-            background-color: #333;
+            background-color: lightpink;
             padding: 20px;
         }
 
@@ -145,8 +147,8 @@
         }
 
         footer {
-            background-color: #333;
-            color: #fff;
+            background-color: lightyellow;
+            color: black;
             padding: 20px;
             text-align: center;
         }
@@ -157,8 +159,8 @@
         }
 
         .copyright {
-            background-color: #333;
-            color: #fff;
+            background-color: lightpink;
+            color: black;
             padding: 10px;
             text-align: center;
         }
@@ -166,24 +168,25 @@
 </head>
 <body>
     <header>
-        <h1>About Book-O-Logy</h1>
+        <h1>About NailMate</h1>
     </header>
     <nav>
         <ul>
-            <li><a href="landing page.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="Landing_nail.html">Home</a></li>
+            <li><a href="About_nail.html">About</a></li>
+            <li><a href="Contact_nail.html">Contact</a></li>
         </ul>
     </nav>
     <main>
-        <img src="https://www.neh.gov/sites/default/files/styles/featured_image_page/public/2018-06/openbooks.jpg?h=b69e0e0e&itok=06BUz0mY" alt="About My Bookstore" class="about-img">
+        <img src="https://i.pinimg.com/originals/05/3a/05/053a059d636a7fd2240dca7182040d40.jpg" alt="About My Bookstore" class="about-img">
         <h2>Welcome,</h2>
-        <p>Book-O-Logy is a place, where literary passions flourish and stories come to life! Immerse yourself in a world of captivating narratives and boundless knowledge as you explore our diverse collection of books. From timeless classics to contemporary gems, we curate an extensive selection to cater to every reader's taste and curiosity.</p>
-<p>At Book-O-Logy, we believe in the magic of storytelling and its power to connect, inspire, and transport. Our online haven invites book enthusiasts to embark on literary journeys, discover new voices, and rediscover beloved tales. Whether you seek thrilling adventures, insightful reflections, or educational treasures, our carefully curated shelves await your exploration.</p>
-<p>Indulge your love for literature and foster a sense of community with fellow book lovers. Join us on this literary adventure at Book-O-Logy, where every page turns into an opportunity for discovery, imagination, and connection. Happy reading!</p>
+        <p>NailMate is a trendy and innovative nail art salon that stands out for its creative and personalized approach to nail care. Located in the heart of the city, NailMate has quickly become a go-to destination for individuals seeking unique and stylish nail designs.</p>
+<p>The salon boasts a team of skilled and experienced nail artists who are passionate about their craft. They stay updated on the latest trends in nail art and continually explore new techniques, ensuring that clients receive cutting-edge and fashion-forward nail treatments.</p>
+<p>NailMate offers a diverse range of services, including classic manicures and pedicures for those who prefer timeless elegance, as well as more avant-garde options like 3D nail art and chrome/holographic finishes for the trendsetters. The salon takes pride in using high-quality products, ensuring not only beautiful results but also the health and well-being of clients' nails.</p>
+<p>Nail the perfect blend of chic and classy with NailMate's artistic touch.</p>
     </main>
     <footer>
-        <p>&copy; 2022 Book-O-Logy. All rights reserved.</p>
+        <p>&copy; 2023 NailMate. All rights reserved.</p>
     </footer>
     <div class="copyright">
         <p>Developed by Anouska Bhattacharyya</p>
@@ -202,18 +205,18 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f0f0f0;
+            background-color: lightcyan;
         }
 
         header {
-            background-color: #333;
-            color: #fff;
+            background-color: lightyellow;
+            color: black;
             padding: 20px;
             text-align: center;
         }
 
         nav {
-            background-color: #333;
+            background-color: lightpink;
             padding: 20px;
         }
 
@@ -238,8 +241,8 @@
         }
 
         footer {
-            background-color: #333;
-            color: #fff;
+            background-color: lightyellow;
+            color: black;
             padding: 20px;
             text-align: center;
         }
@@ -257,8 +260,8 @@
         }
 
         .copyright {
-            background-color: #333;
-            color: #fff;
+            background-color: lightpink;
+            color: black;
             padding: 10px;
             text-align: center;
         }
@@ -270,9 +273,9 @@
     </header>
     <nav>
         <ul>
-            <li><a href="landing page.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="Landing_nail.html">Home</a></li>
+            <li><a href="About_nail.html">About</a></li>
+            <li><a href="Contact_nail.html"</a></li>
         </ul>
     </nav>
     <main>
@@ -280,12 +283,12 @@
             <img src="https://burst.shopifycdn.com/photos/contact-us-phone.jpg?width=1850&format=pjpg&exif=1&iptc=1" alt="Contact Information" class="contact-img">
             <h3>Contact Details</h3>
             <p>Phone: 7845110982</p>
-            <p>Email: info@bookology.com</p>
-            <p>Location: 123 Bookstore St, New Market, India-700056</p>
+            <p>Email: info@nailmate.com</p>
+            <p>Location: 123 Elgin Road, New Market, India-700056</p>
         </div>
     </main>
     <footer>
-        <p>&copy; 2022 Book-O-Logy. All rights reserved.</p>
+        <p>&copy; 2023 NailMate. All rights reserved.</p>
     </footer>
     <div class="copyright">
         <p>Developed by Anouska Bhattacharyya</p>

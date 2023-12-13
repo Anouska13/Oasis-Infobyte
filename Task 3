@@ -110,8 +110,10 @@ input {
         alert("Please enter a temperature value");
         resultElement.innerText = "";
         return;
-      }  
+      }
+  
       let result;
+  
       if (fromUnit === "celsius" && toUnit === "fahrenheit") {
         result = (inputTemperature * 9/5) + 32;
       } else if (fromUnit === "fahrenheit" && toUnit === "celsius") {
@@ -125,5 +127,6 @@ input {
       resultElement.innerText = result.toFixed(2) + " " + toUnit.toUpperCase();
     }
   </script>
+
 </body>
 </html>
